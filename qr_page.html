@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Safety Demo</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:linear-gradient(135deg,#0f172a,#1e293b);
+      padding:20px;
+      color:#1f2937;
+    }
+
+    .card{
+      width:100%;
+      max-width:760px;
+      background:#ffffff;
+      border-radius:18px;
+      box-shadow:0 20px 50px rgba(0,0,0,0.25);
+      overflow:hidden;
+    }
+
+    .top{
+      background:linear-gradient(135deg,#dc2626,#f59e0b);
+      color:#fff;
+      padding:28px 24px;
+      text-align:center;
+    }
+
+    .top h1{
+      font-size:32px;
+      margin-bottom:10px;
+    }
+
+    .top p{
+      font-size:16px;
+      line-height:1.6;
+    }
+
+    .content{
+      padding:30px 24px;
+    }
+
+    .alert{
+      background:#fef2f2;
+      border:1px solid #fecaca;
+      color:#991b1b;
+      border-radius:12px;
+      padding:18px;
+      margin-bottom:22px;
+      font-size:18px;
+      font-weight:bold;
+      text-align:center;
+    }
+
+    .message{
+      font-size:18px;
+      line-height:1.8;
+      margin-bottom:24px;
+      color:#374151;
+    }
+
+    .tips{
+      background:#f8fafc;
+      border:1px solid #e5e7eb;
+      border-radius:14px;
+      padding:20px;
+    }
+
+    .tips h2{
+      font-size:22px;
+      margin-bottom:14px;
+      color:#111827;
+    }
+
+    .tips ul{
+      padding-left:20px;
+    }
+
+    .tips li{
+      margin-bottom:12px;
+      line-height:1.7;
+      font-size:16px;
+      color:#374151;
+    }
+
+    .footer{
+      padding:18px 24px 26px;
+      text-align:center;
+      font-size:14px;
+      color:#6b7280;
+    }
+
+    @media (max-width:600px){
+      .top h1{
+        font-size:26px;
+      }
+
+      .message{
+        font-size:16px;
+      }
+
+      .tips h2{
+        font-size:20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="top">
+      <h1>QR Code Safety Awareness</h1>
+      <p>Learn how scammers use fake QR codes to trick people into visiting harmful websites.</p>
+    </div>
+
+    <div class="content">
+      <div class="alert">⚠ CYBERSECURITY DEMONSTRATION</div>
+
+      <div class="message">
+        <p>You scanned a QR code without knowing where it would lead.</p>
+        <br>
+        <p>Scammers often use rewards, discounts, and urgency to attract clicks.</p>
+        <br>
+        <p><strong>Always verify before scanning.</strong></p>
+      </div>
+
+      <div class="tips">
+        <h2>How to Stay Safe</h2>
+        <ul>
+          <li>Check where the QR code came from before scanning it.</li>
+          <li>Preview the link and look for misspellings or unusual website names.</li>
+          <li>Be cautious of messages promising prizes, discounts, or urgent action.</li>
+          <li>Do not enter passwords, bank details, or personal information on unknown pages.<
